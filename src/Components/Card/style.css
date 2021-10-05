@@ -1,0 +1,52 @@
+.containerCards{
+    width: auto;
+    height: 500px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: blueviolet;
+    margin-left: 25px;
+}
+
+.namePoke{
+    width: auto;
+    height: 45px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.imgPoke{
+    width: 150px;
+    height: 150px;
+    background-color: hotpink;
+}
+
+.info{
+    width: auto;
+    height: 60px;
+    background-color: cadetblue;
+    margin-top: 25px;
+}
+
+.type{
+    width: auto;
+    height: 25px;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+
+.exp{
+    width: auto;
+    height: 25px;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
