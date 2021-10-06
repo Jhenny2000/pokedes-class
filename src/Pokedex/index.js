@@ -1,15 +1,18 @@
 import React from 'react';
 import { Component } from 'react';
-import './style.css';
 
-class Card extends Component{
+class Pokedex extends Component{
+    constructor(props){
+        super(props)
+    }
+
     render(){
         return(
             <>
-                
+                <Card/>
             </>
         )
     }
 }
 
-export default Card;
+export default Pokedex;

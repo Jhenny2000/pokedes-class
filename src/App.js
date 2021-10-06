@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Pokedex from '../src/Components/Pokedex/index';
+import Card from './Card';
 
 function App() {
   return (
     <div className="App">
-      <Pokedex/>
+      <Card/>
     </div>
   );
 }
