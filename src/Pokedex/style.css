@@ -1,6 +1,6 @@
 .containerCards{
     width: auto;
-    height: 500px;
+    height: 300px;
     /* background-color: aqua; */
     align-items: center;
     justify-content: center;
@@ -60,4 +60,17 @@ p{
     width: auto;
     height: 25px;
     /* background-color: chartreuse; */
+}
+.result{
+    width: 400px;
+    height: 40px;
+    /* background-color: brown; */
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #666363;
+    border: 1px solid black;
 }
