@@ -1,6 +1,6 @@
 .containerCards{
     width: auto;
-    height: 300px;
+    height: 400px;
     /* background-color: aqua; */
     align-items: center;
     justify-content: center;
@@ -28,11 +28,11 @@
     margin-bottom: 15px;
 }
 
-/* .imgPoke{
+.imgPoke{
     width: 150px;
     height: 150px;
-    background-color: hotpink;
-} */
+    /* background-color: hotpink; */
+}
 
 .info{
     width: auto;
@@ -61,10 +61,10 @@ p{
     height: 25px;
     /* background-color: chartreuse; */
 }
-.result{
+/* .result{
     width: 400px;
     height: 40px;
-    /* background-color: brown; */
+    background-color: brown;
     align-items: center;
     justify-content: center;
     display: inline-block;
@@ -73,4 +73,17 @@ p{
     font-size: 30px;
     color: #666363;
     border: 1px solid black;
+} */
+
+h1{
+    color: #666363;
+    font-size: 45px;
+}
+
+.perdedor{
+    color: #f83636;
+}
+
+.vencedor{
+    color: #1be44d;
 }

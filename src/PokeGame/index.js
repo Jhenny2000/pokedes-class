@@ -71,20 +71,57 @@ class PokeGame extends Component {
 
     render() {
         return (
-
             <>
-                <div className='result'>
-                    {
-                        
-                    }
+                <h1 className='total'>{this.state.sumOne}</h1>
+                <Pokedex pokemons={this.state.hand1} win={this.state.sumOne > this.state.sumTwo}/>
                 
-                </div>
-                <Pokedex pokemons={this.state.hand1}/>
+
+                <h1 className='total'>{this.state.sumTwo}</h1>
+                <Pokedex pokemons={this.state.hand2} win={this.state.sumTwo > this.state.sumOne}/>
                 
-                <Pokedex pokemons={this.state.hand2}/>
+
             </>
+            
         );
     }
 }
 
 export default PokeGame;
+
+
+{/* <>
+               
+               { this.state.sumOne > this.state.sumTwo ?
+               
+                   <>
+                    <h1 className='v'>Vencedor</h1>
+                    <h1 className='total'>{this.state.sumOne}</h1>
+                   </>
+               :  
+                    <>
+                    <h1 className='p'>Perdedor</h1>
+                    <h1 className='total'>{this.state.sumOne}</h1>
+                    
+                    </>
+               }
+                    <Pokedex pokemons={this.state.hand1}/>
+
+
+                    
+                    
+                    
+                    { this.state.sumTwo > this.state.sumOne ?
+               
+               <>
+                <h1 className='v'>Vencedor</h1>
+                <h1 className='total'>{this.state.sumTwo}</h1>
+               </>
+           :  
+                <>
+                <h1 className='p'>Perdedor</h1>
+                <h1 className='total'>{this.state.sumTwo}</h1>
+                
+                </>
+           }
+           <Pokedex pokemons={this.state.hand2}/>
+            </> */}

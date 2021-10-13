@@ -24,8 +24,8 @@ class Card extends Component {
                  <div className='card'>
                     <div className='namePoke'>
                         <h2>{this.props.pokemon?.name}</h2>
-                    </div>
-                    <img className='imgPoke' src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${this.props.pokemon?.id}.png`} alt='Pokemon'/>
+                    </div>  
+                    <img className='imgPoke' src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${String(this.props.pokemon?.id).padStart(3,'0')}.png`} alt='Pokemon'/>
                     <div className='info'>
                         <div className='type'>
                             <p>Type: {this.props.pokemon?.type}</p>

@@ -12,6 +12,7 @@ class Pokedex extends Component{
 
         return(
             <>
+            {this.props.win ? <h1 className='vencedor'>Vencedor</h1> : <h1 className='perdedor'>Perdedor</h1>}
                 <div className='containerCards'>
                     {
                         this.props.pokemons.map((pokemon) => {
